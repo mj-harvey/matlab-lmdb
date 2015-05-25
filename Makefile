@@ -1,7 +1,7 @@
 # Makefile for matlab-lmdb
 LMDBDIR := src/liblmdb
 ECHO := echo
-MATLABDIR ?= /usr/local/matlab
+MATLABDIR ?= /shared/lab/software/Matlab2013a
 MATLAB := $(MATLABDIR)/bin/matlab
 MEX := $(MATLABDIR)/bin/mex
 MEXEXT := $(shell $(MATLABDIR)/bin/mexext)
